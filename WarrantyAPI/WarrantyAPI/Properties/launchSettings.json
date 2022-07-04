@@ -1,0 +1,35 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:26833",
+      "sslPort": 44339
+    }
+  },
+  "profiles": {
+    "WarrantyAPI": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7120;http://localhost:5120",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production",
+        "AzureTableStorage": "DefaultEndpointsProtocol=https;AccountName=tablestrg21;AccountKey=aYBTaQIqFVdXTPEKBarbd0U7frkAV9X8plbYhfP6Kg5cL1p34snMxM/5l3l8VJ5KtsqP7vLUju15Rs32IdbPKg==;EndpointSuffix=core.windows.net",
+        "WarrantyTableName": "Warranty01"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production",
+        "AzureTableStorage": "DefaultEndpointsProtocol=https;AccountName=tablestrg21;AccountKey=aYBTaQIqFVdXTPEKBarbd0U7frkAV9X8plbYhfP6Kg5cL1p34snMxM/5l3l8VJ5KtsqP7vLUju15Rs32IdbPKg==;EndpointSuffix=core.windows.net",
+        "WarrantyTableName": "Warranty01"
+      }
+    }
+  }
+}
